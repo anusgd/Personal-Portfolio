@@ -11738,5 +11738,15 @@ html {
     letter-spacing:1px;
     font-size:0.9rem;
     line-height:2;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:575px){
+  .text-inside{
+    font-size:0.9rem;
+    line-height:1.5;
+    letter-spacing:0.6px;
+    text-align: center;
   }
 }
